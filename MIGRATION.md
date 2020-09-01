@@ -1,6 +1,6 @@
 # Gradle Plugin Migration Guide
 
-The Thunderhead Android SDK 4.0 introduced a new dependency on the [Orchestration Gradle Plugin](ORCHESTRATION-PLUGIN-README.md), replacing the [Archinamon Gradle Plugin](https://github.com/Archinamon/android-gradle-aspectj) dependency.
+The Thunderhead Android SDK 4.0 introduced a new dependency on the [Orchestration Gradle Plugin](README.md), replacing the [Archinamon Gradle Plugin](https://github.com/Archinamon/android-gradle-aspectj) dependency.
 
 #### Affects
 
@@ -68,6 +68,6 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
     * Remove `classpath 'com.archinamon:android-gradle-aspectj:3.3.1'` from the `buildscript`'s `dependencies` block.
 * You have successfully migrated the Thunderhead SDK required Gradle Plugins.
 
-*See the main [README](ORCHESTRATION-PLUGIN-README.md) for a complete example of a successfully configured application.*
+*See the main [README](README.md) for a complete example of a successfully configured application.*
 
-*See the [Orchestration README](ORCHESTRATION-PLUGIN-README.md) for more details about the orchestration plugin.*
+*See the [Orchestration README](README.md) for more details about the orchestration plugin.*
