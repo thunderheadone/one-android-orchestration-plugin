@@ -68,6 +68,4 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
     * Remove `classpath 'com.archinamon:android-gradle-aspectj:3.3.1'` from the `buildscript`'s `dependencies` block.
 * You have successfully migrated the Thunderhead SDK required Gradle Plugins.
 
-*See the main [README](README.md) for a complete example of a successfully configured application.*
-
 *See the [Orchestration README](README.md) for more details about the orchestration plugin.*
