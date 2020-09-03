@@ -6,7 +6,6 @@ Requires Gradle 5.6.4+
 
 ### Overview of breaking changes
 
-
 Version 2.0.0 of the Orchestration Plugin is a breaking change, making prior versions of the plugin obsolete.
 
 Versions prior to 2.0.0 of the Orchestration Plugin have been removed and are no longer accessible.
