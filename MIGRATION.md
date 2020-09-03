@@ -33,7 +33,7 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
 * Update the root project's `build.gradle` file.
   * Replace the `Archinamon` dependency with the `Orchestration` dependency.
     * Remove `classpath 'com.archinamon:android-gradle-aspectj:3.3.1'` from the `buildscript`'s `dependencies` block.
-    * Add `classpath 'com.thunderhead.android:orchestration-plugin:1.0.0'` to the `buildscript`'s `dependencies` block.
+    * Add `classpath 'com.thunderhead.android:orchestration-plugin:2.0.0'` to the `buildscript`'s `dependencies` block.
   * Add the Thunderhead Maven Repository to the `buildscript`'s `repositories` block.
     ```groovy
       maven {
@@ -47,7 +47,7 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
 * Update the application's `build.gradle` file.
   * Replace the `Archinamon` plugin with the `Orchestration` plugin.
     * Remove `apply plugin: 'com.archinamon.aspectj-ext'`
-    * Add `id 'com.thunderhead.android.orchestration-plugin' version '1.0.0'` to the `plugins` DSL block.
+    * Add `id 'com.thunderhead.android.orchestration-plugin' version '2.0.0'` to the `plugins` DSL block.
   * Remove the `aspectj` configuration block.
     * For `Interaction Studio` customers:
       ```groovy 

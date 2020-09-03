@@ -2,7 +2,15 @@
 
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
-Requires Gradle 5.2.1+
+Requires Gradle 5.6.4+
+
+### Overview of breaking changes
+
+
+Version 2.0.0 of the Orchestration Plugin is a breaking change, making prior versions of the plugin obsolete.
+
+Versions prior to 2.0.0 of the Orchestration Plugin have been removed and are no longer accessible.
+This change occurred to mitigate the possibility, however slight, of an application inadvertently incorporating an unofficial version of the Orchestration Plugin.  
 
 ### Apply to project
 
@@ -21,7 +29,7 @@ Requires Gradle 5.2.1+
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '1.0.1'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0'
     }
     ```
     
@@ -39,7 +47,7 @@ Requires Gradle 5.2.1+
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:1.0.1")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -58,7 +66,7 @@ Requires Gradle 5.2.1+
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:1.0.1'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
