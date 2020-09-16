@@ -1,0 +1,7 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+
+com.thunderhead.android.orchestration
+com.thunderhead.android.orchestration.api
+com.thunderhead.android.orchestration.api.classprocessing
+com.thunderhead.android.orchestration.api.resources
