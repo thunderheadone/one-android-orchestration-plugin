@@ -76,12 +76,11 @@ jobs:
           fileOutput: ''
           
       - name: Create Pull Request
-        if: steps.check_readme_exists.outputs.files_exists == 'true' 
-          && contains(steps.check_readme_modified.outputs.files_modified, 'README.md')
-          && contains(steps.check_troubleshootingguide_modified.outputs.files_modified, 'TROUBLESHOOTING-GUIDE.md')
-          && contains(steps.check_migration_modified.outputs.files_modified, 'MIGRATION.md')
-          && contains(steps.check_changelog_modified.outputs.files_modified, 'CHANGELOG.md')
-          && contains(steps.check_errorcodes_modified.outputs.files_modified, 'ERROR-CODES.md')
+        if: (steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.check_readme_modified.outputs.files_modified, 'README.md'))
+          || (steps.check_troubleshootingguide_exists.outputs.files_exists == 'true' && contains(steps.check_troubleshootingguide_modified.outputs.files_modified, 'TROUBLESHOOTING-GUIDE.md'))
+          || (steps.check_migration_exists.outputs.files_exists == 'true' && contains(steps.check_migration_modified.outputs.files_modified, 'MIGRATION.md'))
+          || (steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.check_changelog_modified.outputs.files_modified, 'CHANGELOG.md'))
+          || (steps.check_errorcodes_exists.outputs.files_exists == 'true' && contains(steps.check_errorcodes_modified.outputs.files_modified, 'ERROR-CODES.md'))
         id: create_pull_request
         uses: vsoch/pull-request-action@1.0.6
         env:
