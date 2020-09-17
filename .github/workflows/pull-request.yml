@@ -22,9 +22,66 @@ jobs:
         uses: trilom/file-changes-action@v1.2.3
         with:
           fileOutput: ''
-       
+
+      - name: Check Troubleshooting Guide Exists
+        id: check_troubleshootingguide_exists
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "TROUBLESHOOTING-GUIDE.md"
+          allow_failure: true
+      
+      - name: Check Troubleshooting Guide Modified
+        id: check_troubleshootingguide_modified
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          fileOutput: ''
+
+      - name: Check Migration Exists
+        id: check_migration_exists
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "MIGRATION.md"
+          allow_failure: true
+      
+      - name: Check Migration Modified
+        id: check_migration_modified
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          fileOutput: ''
+
+      - name: Check Changelog Exists
+        id: check_changelog_exists
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "CHANGELOG.md"
+          allow_failure: true
+      
+      - name: Check Changelog Modified
+        id: check_changelog_modified
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          fileOutput: ''
+
+      - name: Check Error Codes Exists
+        id: check_errorcodes_exists
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "ERROR-CODES.md"
+          allow_failure: true
+      
+      - name: Check Error Codes Modified
+        id: check_errorcodes_modified
+        uses: trilom/file-changes-action@v1.2.3
+        with:
+          fileOutput: ''
+          
       - name: Create Pull Request
-        if: steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.check_readme_modified.outputs.files_modified, 'README.md')
+        if: steps.check_readme_exists.outputs.files_exists == 'true' 
+          && contains(steps.check_readme_modified.outputs.files_modified, 'README.md')
+          && contains(steps.check_troubleshootingguide_modified.outputs.files_modified, 'TROUBLESHOOTING-GUIDE.md')
+          && contains(steps.check_migration_modified.outputs.files_modified, 'MIGRATION.md')
+          && contains(steps.check_changelog_modified.outputs.files_modified, 'CHANGELOG.md')
+          && contains(steps.check_errorcodes_modified.outputs.files_modified, 'ERROR-CODES.md')
         id: create_pull_request
         uses: vsoch/pull-request-action@1.0.6
         env:
