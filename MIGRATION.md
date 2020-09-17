@@ -6,7 +6,7 @@ The Thunderhead Android SDK 4.0 introduced a new dependency on the [Orchestratio
 
 This guide is for Thunderhead customers who plan on migrating from version(s) <= 3.0.0 to version(s) 4.0.0+.
 
-#### Steps 
+#### Steps
 
 *Note: All code snippets are in groovy syntax.*
 
@@ -17,14 +17,14 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
     * Add `apply plugin: 'com.thunderhead.android.orchestration-plugin'`
   * Remove the `aspectj` configuration block.
     * For `Interaction Studio` customers:
-      ```groovy 
+      ```groovy
        aspectj {
            includeAspectsFromJar 'is-sdk'
            ajcArgs << '-Xlint:ignore'
        }
       ```
     * For `Thunderhead ONE` customers:
-      ```groovy 
+      ```groovy
        aspectj {
            includeAspectsFromJar 'one-sdk'
            ajcArgs << '-Xlint:ignore'
@@ -40,7 +40,7 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
           name = "Thunderhead"
           url = uri("https://thunderhead.mycloudrepo.io/public/repositories/one-sdk-android")
       }
-    ``` 
+    ```
 * You have successfully migrated the Thunderhead SDK required Gradle Plugins.
 
 ##### Using the Gradle Plugin Portal and `plugins` DSL
@@ -50,14 +50,14 @@ This guide is for Thunderhead customers who plan on migrating from version(s) <=
     * Add `id 'com.thunderhead.android.orchestration-plugin' version '2.0.0'` to the `plugins` DSL block.
   * Remove the `aspectj` configuration block.
     * For `Interaction Studio` customers:
-      ```groovy 
+      ```groovy
        aspectj {
            includeAspectsFromJar 'is-sdk'
            ajcArgs << '-Xlint:ignore'
        }
       ```
     * For `Thunderhead ONE` customers:
-      ```groovy 
+      ```groovy
        aspectj {
            includeAspectsFromJar 'one-sdk'
            ajcArgs << '-Xlint:ignore'
