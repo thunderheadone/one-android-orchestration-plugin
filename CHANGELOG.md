@@ -1,10 +1,19 @@
-## [1.0.2](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-18)
+## [1.0.3](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-18)
+
+### Bug Fixes
+* This is a test ABC release, nothing more.  Should not be publicly viewable.
+* This is a test DEF release, nothing more.  Should not be publicly viewable.
+* This is a test GHI release, nothing more.  Should not be publicly viewable.
+* This is a test JKL release, nothing more.  Should not be publicly viewable.
+
+## [1.0.2](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-17)
 
 ### Bug Fixes
 * This is a test ZZZ release, nothing more.  Should not be publicly viewable.
 * This is a test XXX release, nothing more.  Should not be publicly viewable.
 * This is a test YYY release, nothing more.  Should not be publicly viewable.
 * This is a test XYZ release, nothing more.  Should not be publicly viewable.
+* This is a test ABC release, nothing more.  Should not be publicly viewable.
 
 ## [1.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-03-25)
 
