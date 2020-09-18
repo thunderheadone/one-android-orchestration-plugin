@@ -1,9 +1,9 @@
-# 1.0.1 (2020-03-25)
+## [1.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-03-25)
 
 
 ### Bug Fixes
 
-* **aspectjtransformer.kt:** include library modules as source
+* **aspectjtransformer.kt:** include library modules as source ([50986cd](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/50986cdb303d3144cc8def1de288985a591bdf68))
 
 
 
@@ -12,17 +12,17 @@
 
 ### Bug Fixes
 
-* **VersionUtil.kt buildSrc:** Fixed git branch name comparison to trim whitespace.
+* **VersionUtil.kt buildSrc:** Fixed git branch name comparison to trim whitespace. ([cb00c21](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/cb00c21))
 
 
 ### Code Refactoring
 
-* **Android Aspects Download:** Use Gradle Configurations instead of Direct Download for Aspects
+* **Android Aspects Download:** Use Gradle Configurations instead of Direct Download for Aspects ([49de52e](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/49de52e))
 
 
 ### Features
 
-* **Initial Plugin:** Orchestration Plugin created with small public API.
+* **Initial Plugin:** Orchestration Plugin created with small public API. ([0633fbc](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/0633fbc))
 
 
 ### BREAKING CHANGES
