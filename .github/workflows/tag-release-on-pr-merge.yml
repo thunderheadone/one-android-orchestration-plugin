@@ -3,10 +3,11 @@ on:
   pull_request:
     types: [closed]
     branches: 
-      - 'release/*'
+      - 'release/**'
 jobs:
   tag-and-release:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
     steps:
       - name: Get Release Branch Name
         id: get_release_branch_name
