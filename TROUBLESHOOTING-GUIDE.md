@@ -1,6 +1,6 @@
 ![Thunderhead Orchestration](https://i.imgur.com/gfizURy.png "Thunderhead")
 
-The Thunderhead Orchestration Gradle Plugin for Android Troubleshooting Guide for common implementation issues.
+The Thunderhead Orchestration Gradle Plugin for Android Troubleshooting Guide is for common implementation issues.
 
 ## Table of Contents
 
