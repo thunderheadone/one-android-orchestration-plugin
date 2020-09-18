@@ -2,6 +2,7 @@
 
 Remove this line, here for testing release pipeline in Jenkins.
 Remove this line too, here for testing release pipeline in Jenkins.
+Remove this line as well, here for testing release pipeline in Jenkins.
 
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
@@ -22,7 +23,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-omicron"
+        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-pi"
       }
     ```
 
@@ -31,7 +32,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-omicron'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-pi'
     }
     ```
 
@@ -84,7 +85,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-omicron")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-pi")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -107,7 +108,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-omicron'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-pi'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
