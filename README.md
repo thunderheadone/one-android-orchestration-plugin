@@ -6,6 +6,10 @@ Remove this line as well, here for testing release pipeline in Jenkins.
 Remove this line next, here for testing release pipeline in Jenkins.
 Remove this line after, here for testing release pipeline in Jenkins.
 Remove this line once complete, here for testing release pipeline in Jenkins.
+Remove this line after complete, here for testing release pipeline in Jenkins.
+Remove this line soon after complete, here for testing release pipeline in Jenkins.
+Remove this line blah, here for testing release pipeline in Jenkins.
+Remove this line foo, here for testing release pipeline in Jenkins.
 
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
@@ -26,7 +30,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-tau"
+        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-phi3"
       }
     ```
 
@@ -35,7 +39,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-tau'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-phi3'
     }
     ```
 
@@ -88,7 +92,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-tau")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi3")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -111,7 +115,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-tau'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi3'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
