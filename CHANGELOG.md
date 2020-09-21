@@ -1,3 +1,14 @@
+## [1.0.4](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-18)
+
+### Bug Fixes
+* This is a extra test ABC release, nothing more.  Should not be publicly viewable.
+* This is a extra test DEF release, nothing more.  Should not be publicly viewable.
+* This is a extra test GHI release, nothing more.  Should not be publicly viewable.
+* This is a extra test JKL release, nothing more.  Should not be publicly viewable.
+* This is a extra test MNO release, nothing more.  Should not be publicly viewable.
+* This is a extra test PQR release, nothing more.  Should not be publicly viewable.
+* This is a extra test STU release, nothing more.  Should not be publicly viewable.
+
 ## [1.0.3](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-18)
 
 ### Bug Fixes
