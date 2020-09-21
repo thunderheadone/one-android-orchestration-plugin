@@ -1,3 +1,7 @@
+## [1.0.5](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-21)
+
+* test XX placeholder, nothing here
+
 ## [1.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-03-25)
 
 
