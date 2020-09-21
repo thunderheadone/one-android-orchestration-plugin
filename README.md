@@ -1,16 +1,5 @@
 # Thunderhead Orchestration Plugin
 
-Remove this line, here for testing release pipeline in Jenkins.
-Remove this line too, here for testing release pipeline in Jenkins.
-Remove this line as well, here for testing release pipeline in Jenkins.
-Remove this line next, here for testing release pipeline in Jenkins.
-Remove this line after, here for testing release pipeline in Jenkins.
-Remove this line once complete, here for testing release pipeline in Jenkins.
-Remove this line after complete, here for testing release pipeline in Jenkins.
-Remove this line soon after complete, here for testing release pipeline in Jenkins.
-Remove this line blah, here for testing release pipeline in Jenkins.
-Remove this line foo, here for testing release pipeline in Jenkins.
-
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
 Requires Gradle 5.6.4+
@@ -30,7 +19,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-phi3"
+        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-phi4"
       }
     ```
 
@@ -39,7 +28,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-phi3'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-phi4'
     }
     ```
 
@@ -92,7 +81,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi3")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi4")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -115,7 +104,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi3'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi4'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
