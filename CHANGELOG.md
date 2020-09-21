@@ -6,6 +6,7 @@
 * This is a test GHI release, nothing more.  Should not be publicly viewable.
 * This is a test JKL release, nothing more.  Should not be publicly viewable.
 * This is a test MNO release, nothing more.  Should not be publicly viewable.
+* This is a test PQR release, nothing more.  Should not be publicly viewable.
 
 ## [1.0.2](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-17)
 
