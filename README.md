@@ -1,6 +1,6 @@
 # Thunderhead Orchestration Plugin
 
-test XXy placeholder, nothing here.
+test XXyzz placeholder, nothing here.
 
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
@@ -21,7 +21,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-phi6"
+        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-beta"
       }
     ```
 
@@ -30,7 +30,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-phi6'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-beta'
     }
     ```
 
@@ -83,7 +83,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi6")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-beta")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -106,7 +106,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-phi6'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-beta'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
