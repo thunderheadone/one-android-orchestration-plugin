@@ -1,5 +1,6 @@
 # Thunderhead Orchestration Plugin
 
+remove me,cloudbees test
 Thunderhead Gradle Plugin for augmenting an Android Application at build time.
 
 Requires Gradle 5.6.4+
@@ -19,7 +20,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-blue"
+        id("com.thunderhead.android.orchestration-plugin") version "2.0.0-50k8-beesknees"
       }
     ```
 
@@ -28,7 +29,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-blue'
+        id 'com.thunderhead.android.orchestration-plugin' version '2.0.0-50k8-beesknees'
     }
     ```
 
@@ -81,7 +82,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-blue")
+            classpath("com.thunderhead.android:orchestration-plugin:2.0.0-50k8-beesknees")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -104,7 +105,7 @@ This change occurred to mitigate the possibility, however slight, of an applicat
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-blue'
+            classpath 'com.thunderhead.android:orchestration-plugin:2.0.0-50k8-beesknees'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
