@@ -1,6 +1,38 @@
-## [1.0.97](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-09-22)
+# [2.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.1...2.0.0) (2020-10-01)
 
-remove me,cloudbees test
+
+### Bug Fixes
+
+* fixed an incorrect dependency configuration which used a test repository ([79b9e83](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/79b9e83680bd1a46cbaec6b92a267313768d1735))
+
+
+### Features
+
+* **aspectj:** updated AspectJ to 1.9.7.M1 to be able to ignore missing metadata in bytecode. ([e6e2039](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/e6e20392af03dce261e975339b6f7faf2c97f653))
+* **aspectjtransformer,androidtransformutils,tests:** android Gradle Plugin 3.6.4 and Gradle 5.6.4 ([5d77b45](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/5d77b45b053aecea407dee3b2392cd9bb0df22f9))
+* **build:** automate the release process to Github ([9ce7d4e](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/9ce7d4e60c458e55f062d5217bf88062d419ebca))
+* **class processing:** add support for properties during class processing ([b53dfee](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/b53dfee7d7607f5c2f5414fcf7552e6e49352288))
+
+
+### Reverts
+
+* Revert "[THX-49670]" ([5405906](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/5405906c6ac3c60736479521b5317d96291c72d5))
+* Revert "* Updated semanticVersion to 2.0.0." ([31c0863](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/31c086318c4e65d4825e02b5539b565fb81eaadd))
+
+
+### BREAKING CHANGES
+
+* **aspectj:** The new version requires a gradle configuration change to successfully build an application.
+
+    THX-50359
+* Previous versions of the Orchestration Plugin have been removed and are no longer accessible.
+
+THX-49202
+* **aspectjtransformer,androidtransformutils,tests:** New version of Gradle required which requires applications to upgrade.
+
+    THX-46312
+
+
 
 ## [1.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.0...1.0.1) (2020-03-25)
 

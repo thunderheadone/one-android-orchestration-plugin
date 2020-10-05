@@ -1,6 +1,6 @@
 ![Thunderhead Orchestration](https://i.imgur.com/gfizURy.png "Thunderhead")
 
-The Thunderhead Orchestration Gradle Plugin for Android Troubleshooting Guide is for common implementation issues.
+The Thunderhead Orchestration Gradle Plugin for Android Troubleshooting Guide for common implementation issues.
 
 ## Table of Contents
 
@@ -10,12 +10,12 @@ The Thunderhead Orchestration Gradle Plugin for Android Troubleshooting Guide is
 ## Integration issues
 ### Cannot cast the outer type to a reference type.
 The Orchestration plugin relies on correct bytecode metadata. Compilers can have bugs that do not
-provide all the necessary metadata required.  Missing metadata will result in the Android Application Bytecode
+provide all the necessary metadata required. Missing metadata will result in the Android Application Bytecode
 being incomplete.
 
 If an Android Application which has the Orchestration plugin applied builds successfully but produces
 a runtime `ClassNotFoundException`, or another related error, check the `classFileProcessorLog.log` found
-in the build directory (defaults to `build/orchestration/classFileProcessorLog.log`).  If an error
+in the build directory (defaults to `build/orchestration/classFileProcessorLog.log`). If an error
 containing `Whilst processing type 'Lcom/example/type;' - cannot cast the outer type to a reference type.` is
 found please try ignoring the missing metadata as follows:
 
