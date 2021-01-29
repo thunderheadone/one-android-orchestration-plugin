@@ -1,3 +1,19 @@
+# [3.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/2.0.0...3.0.0) (2021-01-28)
+
+
+### Features
+
+* **aspects:** use new Aspects with better logging ([2db4d53](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/2db4d531ebea6d6a58442b5480f26cd4c50d38ee))
+
+### BREAKING CHANGES
+
+* **aspects:** These new Aspects are required to use the Thunderhead SDK 9.0.0 release. Without
+    these aspects identity transfer will not function.
+
+    THX-53244
+
+
+
 # [2.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/1.0.1...2.0.0) (2020-10-01)
 
 
