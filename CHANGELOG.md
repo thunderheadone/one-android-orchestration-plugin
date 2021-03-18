@@ -1,3 +1,23 @@
+# [4.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/3.0.0...4.0.0) (2021-03-18)
+
+
+### Bug Fixes
+
+* **aspectjtransformer, configuration:** fix enabled = false ClassNotFoundException ([d4211d1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/d4211d13b4d020697ada246ac2314f1b2848a08a))
+* **aspectjtransformerutils:** fixed a bug where an attempt to make an already existing file occurred ([7952655](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/79526550ea9f8be849daf2f69508b4383ab58d17))
+
+
+### improvement
+
+* **generateconstantstask:** add support for `registerForActivityResult` ([b7bb2da](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/b7bb2daa9ce4ae28b5a64edf60193c646ba3fe4f))
+
+
+### BREAKING CHANGES
+
+* **generateconstantstask:** New aspects are required for Identity Transfer in AndroidX Activities and
+Fragments.
+
+
 # [3.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/2.0.0...3.0.0) (2021-01-28)
 
 
