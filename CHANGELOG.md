@@ -1,3 +1,14 @@
+# [5.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/4.0.0...5.0.0) (2021-07-13)
+
+
+### BREAKING CHANGES
+
+* **aspects:** These new Aspects are required to use the Thunderhead SDK 10.0.0 release. Without
+    these aspects identity transfer will not function.
+
+    MOB-1238
+
+
 # [4.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/3.0.0...4.0.0) (2021-03-18)
 
 
