@@ -1,3 +1,12 @@
+## [5.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/5.0.0...5.0.1) (2021-07-19)
+
+
+### Bug Fixes
+
+* **aspectjtransfomerutils:** do not use colons in filename ([ee27da7](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/ee27da7ce55cf746b0df5a2674c8bbeb6cbf141f))
+
+
+
 # [5.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/4.0.0...5.0.0) (2021-07-13)
 
 

@@ -12,7 +12,7 @@ Requires Gradle 5.6.4+
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "5.0.0"
+        id("com.thunderhead.android.orchestration-plugin") version "5.0.1"
       }
     ```
 
@@ -21,7 +21,7 @@ Requires Gradle 5.6.4+
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '5.0.0'
+        id 'com.thunderhead.android.orchestration-plugin' version '5.0.1'
     }
     ```
 
@@ -74,7 +74,7 @@ Requires Gradle 5.6.4+
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:5.0.0")
+            classpath("com.thunderhead.android:orchestration-plugin:5.0.1")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -97,7 +97,7 @@ Requires Gradle 5.6.4+
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:5.0.0'
+            classpath 'com.thunderhead.android:orchestration-plugin:5.0.1'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
