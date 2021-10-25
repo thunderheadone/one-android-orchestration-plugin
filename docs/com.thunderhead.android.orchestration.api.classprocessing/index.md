@@ -1,9 +1,9 @@
-[orchestration-plugin](../index.md) / [com.thunderhead.android.orchestration.api.classprocessing](./index.md)
+//[orchestration-plugin](../../index.md)/[com.thunderhead.android.orchestration.api.classprocessing](index.md)
 
-## Package com.thunderhead.android.orchestration.api.classprocessing
+# Package com.thunderhead.android.orchestration.api.classprocessing
 
-### Types
+## Types
 
 | Name | Summary |
 |---|---|
-| [ClassProcessingModel](-class-processing-model/index.md) | `open class ClassProcessingModel`<br>DSL model to configure class processing. |
+| [ClassProcessingModel](-class-processing-model/index.md) | [jvm]<br>open class [ClassProcessingModel](-class-processing-model/index.md)@Inject()constructor(**objectFactory**: ObjectFactory, **orchestrationDirectory**: DirectoryProperty)<br>DSL model to configure class processing. |

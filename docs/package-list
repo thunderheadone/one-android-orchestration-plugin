@@ -1,8 +1,29 @@
-$dokka.format:gfm
+$dokka.format:gfm-v1
 $dokka.linkExtension:md
-
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing////PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/index.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel///PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/index.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/ClassProcessingModel/#org.gradle.api.model.ObjectFactory#org.gradle.api.file.DirectoryProperty/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/-class-processing-model.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/ignoreMissingMetadata/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/ignore-missing-metadata.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/javaOutputTarget/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/java-output-target.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/javaSourceTarget/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/java-source-target.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/logfile/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/logfile.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/processMainConfiguration/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/process-main-configuration.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/processTestConfiguration/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/process-test-configuration.md
+$dokka.location:com.thunderhead.android.orchestration.api.classprocessing/ClassProcessingModel/properties/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.classprocessing/-class-processing-model/properties.md
+$dokka.location:com.thunderhead.android.orchestration.api.resources////PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.resources/index.md
+$dokka.location:com.thunderhead.android.orchestration.api.resources/ResourceModel///PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.resources/-resource-model/index.md
+$dokka.location:com.thunderhead.android.orchestration.api.resources/ResourceModel/ResourceModel/#org.gradle.api.model.ObjectFactory#org.gradle.api.file.DirectoryProperty/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.resources/-resource-model/-resource-model.md
+$dokka.location:com.thunderhead.android.orchestration.api.resources/ResourceModel/buildDirectory/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api.resources/-resource-model/build-directory.md
+$dokka.location:com.thunderhead.android.orchestration.api////PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api/index.md
+$dokka.location:com.thunderhead.android.orchestration.api/OrchestrationModel///PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api/-orchestration-model/index.md
+$dokka.location:com.thunderhead.android.orchestration.api/OrchestrationModel/OrchestrationModel/#org.gradle.api.model.ObjectFactory/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api/-orchestration-model/-orchestration-model.md
+$dokka.location:com.thunderhead.android.orchestration.api/OrchestrationModel/enabled/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration.api/-orchestration-model/enabled.md
+$dokka.location:com.thunderhead.android.orchestration////PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration/index.md
+$dokka.location:com.thunderhead.android.orchestration/OrchestrationPlugin///PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration/-orchestration-plugin/index.md
+$dokka.location:com.thunderhead.android.orchestration/OrchestrationPlugin/OrchestrationPlugin/#/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration/-orchestration-plugin/-orchestration-plugin.md
+$dokka.location:com.thunderhead.android.orchestration/OrchestrationPlugin/apply/#org.gradle.api.Project/PointingToDeclaration/orchestration-plugin/com.thunderhead.android.orchestration/-orchestration-plugin/apply.md
 com.thunderhead.android.orchestration
 com.thunderhead.android.orchestration.api
 com.thunderhead.android.orchestration.api.classprocessing
 com.thunderhead.android.orchestration.api.resources
-com.thunderhead.android.orchestration.transformation
+

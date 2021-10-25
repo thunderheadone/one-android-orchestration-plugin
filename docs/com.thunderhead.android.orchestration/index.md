@@ -1,10 +1,9 @@
-[orchestration-plugin](../index.md) / [com.thunderhead.android.orchestration](./index.md)
+//[orchestration-plugin](../../index.md)/[com.thunderhead.android.orchestration](index.md)
 
-## Package com.thunderhead.android.orchestration
+# Package com.thunderhead.android.orchestration
 
-### Types
+## Types
 
 | Name | Summary |
 |---|---|
-| [OrchestrationConstants](-orchestration-constants.md) | `object OrchestrationConstants` |
-| [OrchestrationPlugin](-orchestration-plugin/index.md) | `class OrchestrationPlugin : Plugin<Project>`<br>Thunderhead Orchestration Plugin. |
+| [OrchestrationPlugin](-orchestration-plugin/index.md) | [jvm]<br>class [OrchestrationPlugin](-orchestration-plugin/index.md) : Plugin<Project> <br>Thunderhead Orchestration Plugin. |

@@ -1,9 +1,9 @@
-[orchestration-plugin](../index.md) / [com.thunderhead.android.orchestration.api.resources](./index.md)
+//[orchestration-plugin](../../index.md)/[com.thunderhead.android.orchestration.api.resources](index.md)
 
-## Package com.thunderhead.android.orchestration.api.resources
+# Package com.thunderhead.android.orchestration.api.resources
 
-### Types
+## Types
 
 | Name | Summary |
 |---|---|
-| [ResourceModel](-resource-model/index.md) | `open class ResourceModel`<br>DSL model to configure resource values. |
+| [ResourceModel](-resource-model/index.md) | [jvm]<br>open class [ResourceModel](-resource-model/index.md)@Inject()constructor(**objectFactory**: ObjectFactory, **orchestrationDirectory**: DirectoryProperty)<br>DSL model to configure resource values. |
