@@ -1,9 +1,8 @@
-[orchestration-plugin](../../index.md) / [com.thunderhead.android.orchestration.api.classprocessing](../index.md) / [ClassProcessingModel](index.md) / [processTestConfiguration](./process-test-configuration.md)
+//[orchestration-plugin](../../../index.md)/[com.thunderhead.android.orchestration.api.classprocessing](../index.md)/[ClassProcessingModel](index.md)/[processTestConfiguration](process-test-configuration.md)
 
 # processTestConfiguration
 
-`val processTestConfiguration: Property<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>`
+[jvm]\
+val [processTestConfiguration](process-test-configuration.md): Property<[Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)>
 
-Orchestrate test code.
-Sensible default of false.
-
+Orchestrate test code. Sensible default of false.

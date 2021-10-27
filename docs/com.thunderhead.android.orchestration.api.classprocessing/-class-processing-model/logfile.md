@@ -1,9 +1,8 @@
-[orchestration-plugin](../../index.md) / [com.thunderhead.android.orchestration.api.classprocessing](../index.md) / [ClassProcessingModel](index.md) / [logfile](./logfile.md)
+//[orchestration-plugin](../../../index.md)/[com.thunderhead.android.orchestration.api.classprocessing](../index.md)/[ClassProcessingModel](index.md)/[logfile](logfile.md)
 
 # logfile
 
-`val logfile: RegularFileProperty`
+[jvm]\
+val [logfile](logfile.md): RegularFileProperty
 
-Class File Processor log file.
-Sensible default of `buildDir/orchestration/classFileProcessorLog.log`
-
+Class File Processor log file. Sensible default of buildDir/orchestration/classFileProcessorLog.log

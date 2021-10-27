@@ -1,3 +1,33 @@
+# [6.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/5.0.1...6.0.0) (2021-10-21)
+
+
+### Bug Fixes
+
+* **aspectjtransformer, configuration:** fix enabled = false ClassNotFoundException ([d4211d1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/d4211d13b4d020697ada246ac2314f1b2848a08a))
+* **aspectjtransformerutils.kt:** prevent weaving of SDK code ([c6947b1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/c6947b13745e9d638d6e6fa677064114a8a14947))
+* **aspectjtransformerutils:** fixed a bug where an attempt to make an already existing file occurred ([7952655](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/79526550ea9f8be849daf2f69508b4383ab58d17))
+* fixed an incorrect dependency configuration which used a test repository ([79b9e83](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/79b9e83680bd1a46cbaec6b92a267313768d1735))
+
+
+### Features
+
+* **android gradle plugin 4.2.0:** Upgraded to support Android Gradle Plugin 4.2.0 ([870c96d](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/870c96dd6c69dde77245ce2b3d5f128034691f67))
+
+
+### BREAKING CHANGES
+
+* **aspects:** Aspects are upgraded.
+
+    MOB-1731
+* **upgraded to kotlin 1.5.20:** Upgraded to Kotlin 1.5.20.
+
+   MOB-1332
+* **android gradle plugin 4.2.0:** Upgraded to Android Gradle Plugin 4.2.0
+
+    MOB-1554
+* **aspectjtransformer,androidtransformutils,tests:** New version of Gradle required which requires applications to upgrade.
+
+
 ## [5.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/5.0.0...5.0.1) (2021-07-19)
 
 

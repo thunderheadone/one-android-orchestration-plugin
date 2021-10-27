@@ -1,5 +1,8 @@
-[orchestration-plugin](../../index.md) / [com.thunderhead.android.orchestration](../index.md) / [OrchestrationPlugin](index.md) / [apply](./apply.md)
+//[orchestration-plugin](../../../index.md)/[com.thunderhead.android.orchestration](../index.md)/[OrchestrationPlugin](index.md)/[apply](apply.md)
 
 # apply
 
-`fun apply(target: Project): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+[jvm]\
+open override fun [apply](apply.md)(target: Project)
+
+Apply Plugin to Project.

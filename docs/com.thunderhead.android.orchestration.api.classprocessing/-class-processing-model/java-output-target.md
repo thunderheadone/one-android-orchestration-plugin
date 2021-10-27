@@ -1,9 +1,8 @@
-[orchestration-plugin](../../index.md) / [com.thunderhead.android.orchestration.api.classprocessing](../index.md) / [ClassProcessingModel](index.md) / [javaOutputTarget](./java-output-target.md)
+//[orchestration-plugin](../../../index.md)/[com.thunderhead.android.orchestration.api.classprocessing](../index.md)/[ClassProcessingModel](index.md)/[javaOutputTarget](java-output-target.md)
 
 # javaOutputTarget
 
-`val javaOutputTarget: Property<JavaVersion>`
+[jvm]\
+val [javaOutputTarget](java-output-target.md): Property<JavaVersion>
 
-Target Output Java Language Level.
-Sensible default of 1.7.
-
+Target Output Java Language Level. Sensible default of 1.7.

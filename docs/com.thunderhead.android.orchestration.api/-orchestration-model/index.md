@@ -1,23 +1,28 @@
-[orchestration-plugin](../../index.md) / [com.thunderhead.android.orchestration.api](../index.md) / [OrchestrationModel](./index.md)
+//[orchestration-plugin](../../../index.md)/[com.thunderhead.android.orchestration.api](../index.md)/[OrchestrationModel](index.md)
 
 # OrchestrationModel
 
-`open class OrchestrationModel`
+[jvm]\
+open class [OrchestrationModel](index.md)@Inject()constructor(**objects**: ObjectFactory)
 
 Thunderhead Orchestration Gradle Plugin Extension.
 
-### Parameters
+## Parameters
 
-`objects` - [org.gradle.api.Project](#)'s object factory.
+jvm
 
-### Constructors
+| | |
+|---|---|
+| objects | org.gradle.api.Project's object factory. |
+
+## Constructors
+
+| | |
+|---|---|
+| [OrchestrationModel](-orchestration-model.md) | [jvm]<br>@Inject()<br>fun [OrchestrationModel](-orchestration-model.md)(objects: ObjectFactory)<br>org.gradle.api.Project's object factory. |
+
+## Properties
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OrchestrationModel(objects: ObjectFactory)`<br>Thunderhead Orchestration Gradle Plugin Extension. |
-
-### Properties
-
-| Name | Summary |
-|---|---|
-| [enabled](enabled.md) | `val enabled: Property<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>`<br>True to orchestrate an Android Project, false otherwise. |
+| [enabled](enabled.md) | [jvm]<br>val [enabled](enabled.md): Property<[Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)><br>True to orchestrate an Android Project, false otherwise. |
