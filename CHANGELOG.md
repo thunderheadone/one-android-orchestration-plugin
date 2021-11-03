@@ -1,3 +1,12 @@
+## [6.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/6.0.0...6.0.1) (2021-11-03)
+
+
+### Bug Fixes
+
+* **aspectj tools update:** updated the AspectJ toolkit to a final version and not a milestone ([597170a](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/commits/597170a9056ec8196427b51d51b21c0ff0e40cd4))
+
+
+
 # [6.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/5.0.1...6.0.0) (2021-10-21)
 
 
