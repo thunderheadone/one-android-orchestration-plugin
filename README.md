@@ -12,7 +12,7 @@ Requires Gradle 5.6.4+
     ```kotlin
       // build.gradle.kts
       plugins {
-        id("com.thunderhead.android.orchestration-plugin") version "6.0.0"
+        id("com.thunderhead.android.orchestration-plugin") version "6.0.1"
       }
     ```
 
@@ -21,7 +21,7 @@ Requires Gradle 5.6.4+
     ```groovy
     // build.gradle
     plugins {
-        id 'com.thunderhead.android.orchestration-plugin' version '6.0.0'
+        id 'com.thunderhead.android.orchestration-plugin' version '6.0.1'
     }
     ```
 
@@ -34,9 +34,6 @@ Requires Gradle 5.6.4+
               google()
               jcenter()
               gradlePluginPortal()
-              maven {
-                  url = uri("https://repo.spring.io/milestone")
-              }
           }
       }
     ```
@@ -50,9 +47,6 @@ Requires Gradle 5.6.4+
               google()
               jcenter()
               gradlePluginPortal()
-              maven {
-                  url 'https://repo.spring.io/milestone'
-              }
           }
       }
     ```
@@ -65,16 +59,12 @@ Requires Gradle 5.6.4+
             google()
             jcenter()
             maven {
-                name = "ThunderheadSpringMilestone"
-                url = uri("https://repo.spring.io/milestone")
-            }
-            maven {
                 name = "Thunderhead"
                 url = uri("https://thunderhead.mycloudrepo.io/public/repositories/one-sdk-android")
             }
         }
         dependencies {
-            classpath("com.thunderhead.android:orchestration-plugin:6.0.0")
+            classpath("com.thunderhead.android:orchestration-plugin:6.0.1")
         }
     }
     apply(plugin = "com.thunderhead.android:orchestration-plugin")
@@ -88,16 +78,12 @@ Requires Gradle 5.6.4+
             google()
             jcenter()
             maven {
-                name 'ThunderheadSpringMilestone'
-                url = 'https://repo.spring.io/milestone'
-            }
-            maven {
                 name 'Thunderhead'
                 url = 'https://thunderhead.mycloudrepo.io/public/repositories/one-sdk-android'
             }
         }
         dependencies {
-            classpath 'com.thunderhead.android:orchestration-plugin:6.0.0'
+            classpath 'com.thunderhead.android:orchestration-plugin:6.0.1'
         }
     }
     apply plugin: 'com.thunderhead.android.orchestration-plugin'
