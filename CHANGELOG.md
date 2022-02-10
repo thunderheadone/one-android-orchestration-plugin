@@ -1,3 +1,16 @@
+# [7.0.0](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/6.0.1...7.0.0) (2022-02-09)
+
+
+### BREAKING CHANGES
+
+    MOB-1925
+* **aspects:** Aspects are upgraded
+
+    MOB-1911
+* **aspects:** Fixed a runtime error where static method `getLogger()` could not be found.
+
+
+
 ## [6.0.1](https://bitbucket.org/thunderhead-com/one-mobile-android-gradle-plugin/compare/6.0.0...6.0.1) (2021-11-03)
 
 
